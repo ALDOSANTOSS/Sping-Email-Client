@@ -23,9 +23,11 @@ public class SpingEmailClientApplication {
     public void triggerMail() throws MessagingException, jakarta.mail.MessagingException {
         /* service.sendSimpleEmail("felipe.fariasfcf@outlook.com", "This is the Email Body....", "This is the Email Subject");*/
 
-        service.sendEmailWithAttachment("springemailaldo@gmail.com",
-                "This is Email Body with Attachment...","This email has attachment","C:\\Imagens\\GFT-Teams_SeasonsGreetings_2022_01 (1).jpg");
+        service.sendEmailWithAttachment("felipe.fariasfcf@gmail.com",
+                "This is Email Body with Attachment...","FELIZ NATAL E UM PRÓSPERO ANO NOVO!!!","C:\\Imagens\\image.png");
 
     }
+
+
 
 }
